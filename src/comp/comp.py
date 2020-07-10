@@ -1,6 +1,5 @@
 import math
 import string
-print(string.ascii_uppercase)
 # The following list comprehension exercises will make use of the 
 # defined Human class. 
 class Human:
@@ -39,6 +38,7 @@ print(b,'\n')
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with any letter between 'C' and 'G' inclusive.
 print("Starts between C and G, inclusive:")
+al = string.ascii_uppercase
 c = [human.name for human in humans if human.name[0] in al[2:7]]
 print(c,'\n')
 
